@@ -1,0 +1,4 @@
+Explicit solvent constant pressure MD
+&cntrl
+  imin=0, irest=1, ntx=5, ntpr=10000, ntwx=10000, ntwr=10000, nstlim=1000000, dt=0.002, ntt=3, tempi=310.15, temp0=310.15, gamma_ln=1.0, ig=-1, ntp=1, ntc=2, ntf=2, cut=10.0, ntb=2, iwrap=1, ioutfm=1, ntr=1, restraint_wt=0.5, restraintmask=':1-465',
+/

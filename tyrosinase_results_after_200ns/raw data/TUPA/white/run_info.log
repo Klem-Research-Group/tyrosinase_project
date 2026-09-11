@@ -1,0 +1,26 @@
+########################################################
+>>> Parameters used to run TUPÃ:
+
+Topology file       = strip_all_heavy.white_tyr_solv.prmtop
+Trajectory file     = white_comb.nc
+
+[Environment Selection]
+sele_environment    = resid 1:436
+
+[Probe Selection]
+mode                = bond
+selbond1            = resid 439 and name O1
+selbond2            = resid 439 and name O2
+
+[Solvent]
+include_solvent     = False
+
+
+[Time]
+dt                  = 1
+
+[Box Info]
+redefine_box        = True
+boxdimensions       = [80.2047105, 90.7437665, 83.3352985, 90.0, 90.0, 90.0]
+########################################################
+	
